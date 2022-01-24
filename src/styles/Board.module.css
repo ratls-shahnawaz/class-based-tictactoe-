@@ -1,0 +1,11 @@
+.board{
+	border-radius: 10px;
+	/* display: grid; */
+	
+	display: inline-grid;
+	
+	justify-content: center;
+	align-items: center;
+	grid-auto-columns: 200px!important;
+	
+}

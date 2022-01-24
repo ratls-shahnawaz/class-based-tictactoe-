@@ -1,0 +1,20 @@
+.heartbeatPara{
+    font-size: 25px;
+	color: red;
+	animation: beat .40s infinite alternate;
+	transform-origin: center;
+    /* display: inline-block; */
+    background-color: transparent!important;
+    text-align: center;
+}
+@keyframes beat{
+	to { transform: scale(0.2); }
+}
+
+.nextplayerDiv{
+    border: 1px solid green;
+    display: inline-block;
+    padding: 4px;
+    margin: 8px;
+    /* background-color: red; */
+}
